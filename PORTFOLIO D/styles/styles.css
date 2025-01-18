@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  
+  font-family: "Barlow Condensed", sans-serif;
+      
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    min-height:80vh;
+    aspect-ratio:16/9;
+    background:black;
+    
+    
+}
+
+.slider-background{
+    width:100% ;
+    height:100%;
+    object-fit:cover;
+    filter:brightness(60%);
+}
+
+.slider-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+h1{
+  color:lightgray;
+  font-size:3rem;
+  font-family: "Barlow condensed";
+}
+
+h2{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom:50px;
+}
+
+p{
+  font-size:1,5rem;
+  line-height:1,5em ;
+}
+
+
+.slider-content p{
+  color:lightgray;
+  font-size:1rem;
+}
+
+.section{
+  padding: 100px 0;
+}
+
+.boxed{
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.flex{
+ display:flex; 
+ justify-content:center;
+ gap: 30px;
+}
+
+.dark{
+  background: #000;
+  color:#FFF;
+}
+
+.w40{
+  width: 40%;
+}
+
+.w60{
+  width: 60%;
+}
+
+.text-center{
+  text-align:center ;
+}
+
+.w25{
+  width:25%;
+}
+
+.w32{
+    width: 32%;
+}
+
+.space-between{
+  justify-content:space-between ;
+}
+
+
+.gap20{
+  gap: 20px;
+}
+
+.skill {
+  background: #292929;           
+  border-radius: 15px;        
+  padding: 20px;              
+  box-sizing:content-box;     
+  text-align:center;       
+  margin: 0 auto;             
+}
+
+.skill img {
+  display: block;             
+  margin: 0 auto;             
+  width: 100px;               
+}
+
+.skill h3 {
+  margin-top: 10px;           
+  color: #fff;                
+}
+
+.realisation{
+  height: auto
+  aspect-ratio 1/1;
+}
+
+.realisation a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.realisation img{
+  object-fit:contain;
+  background: #292929;           
+  border-radius: 15px;        
+  padding: 20px;
+  
+}
+

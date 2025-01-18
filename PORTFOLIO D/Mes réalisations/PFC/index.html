@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pierre, Feuille, Ciseaux</title>
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Pierre, Feuille, Ciseaux</h1>
+  <div class="game-container">
+    <div class="choices">
+      <div class="choice" data-choice="rock">
+        <img src="https://img.icons8.com/emoji/96/rock-emoji.png" alt="Pierre">
+        <p>Pierre</p>
+      </div>
+      <div class="choice" data-choice="paper">
+        <img src="painting-8032889_640.png" alt="Feuille">
+        <p>Feuille</p>
+      </div>
+      <div class="choice" data-choice="scissors">
+        <img src="https://img.icons8.com/emoji/96/scissors-emoji.png" alt="Ciseaux">
+        <p>Ciseaux</p>
+      </div>
+    </div>
+
+    <div class="results">
+      <p id="result-message"></p>
+    </div>
+
+    <button onclick="resetGame()">Rejouer</button>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
+
+
